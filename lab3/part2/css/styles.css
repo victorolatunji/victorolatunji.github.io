@@ -1,5 +1,12 @@
 html {
   font-family: sans-serif;
 }
-
+.box {
+    width: 200px;
+    height: 130px;
+    text-align: center;
+    font-size: 1.125rem; /* Using rem converter 18px = 1.125rem */
+    
+    background-color: red;
+}
 /* Your CSS below here */
