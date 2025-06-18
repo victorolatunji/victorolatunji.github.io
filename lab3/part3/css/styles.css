@@ -1,5 +1,6 @@
 /* General setup */
 
+
 * {
   box-sizing: border-box;
 }
@@ -8,6 +9,52 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+h1 {
+    font-size: 1.7rem;
+    letter-spacing: 0.05rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+    letter-spacing: 0.05rem;
+}
+
+a {
+    text-decoration: underline;
+    color: #a66;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration: none;
+    color: green;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+    color: blue;
+}
+
+a:active {
+    color: #ff5722; 
+    background-color: rgba(255, 87, 34, 0.1); 
+    transform: scale(0.98);
+}
+
+a[href^="http"]::after {
+    content: url('"C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\lab3\part3\external-link-52.png"');
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-left: 5px;
 }
 
 /* Layout */
@@ -15,6 +62,7 @@ body {
 section {
   float: left;
   width: 50%;
+  text-indent: 10px;
 }
 
 aside {
@@ -31,8 +79,15 @@ footer {
   clear: both;
 }
 
+header {
+    text-align: center;
+    letter-spacing: 0.05rem;
+}
+
+
 header, section, aside, nav, footer {
   padding: 20px;
+  
 }
 
 /* header and footer */
