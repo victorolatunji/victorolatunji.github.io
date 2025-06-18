@@ -1,5 +1,22 @@
 /* General setup */
 
+/* WRITE YOUR CODE BELOW HERE */
+
+@font-face {
+    font-family: Crimsons;
+    src: url('../fonts/CrimsonPro-VariableFont_wght.ttf')
+}
+
+@font-face {
+    font-family: Crimsons;
+    src: url('../fonts/RobotoSlab-VariableFont_wght.ttf');
+    font-weight: bold;
+}
+
+
+* {
+    font-family: Crimsons;
+}
 
 * {
   box-sizing: border-box;
@@ -50,11 +67,62 @@ a:active {
 }
 
 a[href^="http"]::after {
-    content: url('"C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\lab3\part3\external-link-52.png"');
-    width: 14px;
-    height: 14px;
+    content: "";
     display: inline-block;
-    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    background: url('../external-link-52.png') no-repeat center/contain;
+    margin-left: 2px;
+    vertical-align: -2px;
+}
+
+
+ul, ol {
+    margin: 1em 0;               
+    padding-left: 1.5em;         
+    line-height: 1.6; 
+    list-style-type: circle; 
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Remove default list styling */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Space out the list items */
+nav li {
+  margin-bottom: 10px;
+}
+
+/* Style the links as buttons */
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #8B0000; 
+  border: 1px solid #D3AFAF; 
+  padding: 10px 20px;
+  width: 160px;
+  text-align: center;
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+nav a:hover {
+  background-color: #F9EAEA;
+  color: #6B0000;
 }
 
 /* Layout */
@@ -97,4 +165,3 @@ header, footer {
   border-bottom: 5px solid #a66;
 }
 
-/* WRITE YOUR CODE BELOW HERE */
