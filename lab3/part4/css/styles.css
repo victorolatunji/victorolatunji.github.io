@@ -17,18 +17,46 @@ body {
     max-width: 980px;
   }
   
+/* Two-Column Layout */
   .grid {
-    margin: 0 auto;
-    padding: 0 20px;
-    max-width: 980px;
-  }
-  
-    article img {
-    float: left;       
-    margin: 0 1em 1em 0;  
-    max-width: 40%;    
-    shape-outside: margin-box; 
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
 }
+
+ article {
+  flex: 2;
+  min-width: 0; 
+}
+
+ aside {
+  flex: 1;
+  min-width: 250px;
+}
+
+
+
+/* Image Wrapping */
+  .feature {
+    float: left;
+    margin: 0 1rem 1rem 0;
+    max-width: 40%;
+    shape-outside: margin-box;
+}
+
+  article {
+    flex: 2;
+    min-width: 0;
+  }
+
+  
+  article img {
+  float: left;       
+  margin: 0 1em 1em 0;  
+  max-width: 40%;    
+  shape-outside: margin-box; 
+}
+
 
   nav {
     background-color: #000;
