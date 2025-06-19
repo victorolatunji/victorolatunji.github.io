@@ -34,7 +34,26 @@ body {
   min-width: 250px;
 }
 
+.photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 1px; /* Exact 1 pixel gap */
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Remove default margins */
+}
 
+.photos li {
+  padding: 0;
+  margin: 0;
+}
+
+.photos img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: none; /* Ensure no borders interfere */
+}
 
 /* Image Wrapping */
   .feature {
