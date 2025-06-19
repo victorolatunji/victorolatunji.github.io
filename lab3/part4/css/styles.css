@@ -52,20 +52,34 @@ body {
   width: 100%;
   height: auto;
   display: block;
-  border: none; /* Ensure no borders interfere */
+  border: none; 
 }
 
 /* Image Wrapping */
-  .feature {
+.feature {
+  float: left;         
+  margin: 0 1rem 1rem 0; 
+  max-width: 40%;
+  width: 200px;      
+   
+}
+
+ article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ .feature, article img {
     float: left;
     margin: 0 1rem 1rem 0;
     max-width: 40%;
-    shape-outside: margin-box;
 }
 
   article {
     flex: 2;
     min-width: 0;
+    padding-right: 1em;
   }
 
   
@@ -73,7 +87,6 @@ body {
   float: left;       
   margin: 0 1em 1em 0;  
   max-width: 40%;    
-  shape-outside: margin-box; 
 }
 
 
@@ -103,8 +116,4 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-
-  .feature {
-      width: 200px;
   }
