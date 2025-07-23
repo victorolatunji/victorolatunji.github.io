@@ -1,3 +1,9 @@
+// Name: Victor Olatunji
+// File: lab4 
+// Date: 23 July 2025
+// Lab 4 Part 2 Image Gallery
+// Course: Web Development Fundamentals (INFT1206)
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
