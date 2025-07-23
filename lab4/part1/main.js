@@ -32,6 +32,8 @@ let insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk"
 
 randomize.addEventListener('click', result);
 
+// Result Function
+
 function result() {
     let newStory = storyText
 
@@ -54,6 +56,8 @@ function result() {
 
   }
 
+
+  // Pounds to stone & Fahrenheit to Centigrade
   if(document.getElementById("uk").checked) {
     const weight = Math.round(300 / 14) + ' stone';
     const temperature =  Math.round((94 -32) * 5 / 9) + ' centigrade';
