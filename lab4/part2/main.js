@@ -23,6 +23,16 @@ const alts = {
             }
 
 /* Looping through images */
-
+for (let i = 0; i < images.length; i++) {
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', 'images/' + images[i]);
+    newImage.setAttribute('alt', alts[images[i]]);
+    thumbBar.appendChild(newImage);
+    
+    newImage.addEventListener('click', e => {
+    displayedImage.src = e.target.src;
+    displayedImage.alt = e.target.alt;
+  })
+}
 
 /* Wiring up the Darken/Lighten button */
