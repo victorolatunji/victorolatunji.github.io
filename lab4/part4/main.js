@@ -1,3 +1,11 @@
+
+// Name: Victor Olatunji
+// File: lab4 
+// Date: 30 July 2025
+// Lab 4 Part 4 Adding features to our bouncing balls demo 
+// Course: Web Development Fundamentals (INFT1206)
+
+
 // set up canvas
 
 const canvas = document.querySelector("canvas");
