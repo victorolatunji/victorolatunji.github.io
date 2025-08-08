@@ -87,53 +87,46 @@
             </tbody>
         </table>
 
-        <font size="5">Habitats and Eating habits</font>
-        <br><br>
-        Wild bears eat a variety of meat, fish, fruit, nuts, and other natually growing ingredients. In general they will hunt for food themselves in woodland or rivers, but at a push they will track down their sustenance from farms or country houses. They tend to live in relative isolation, in caves, tents, or cottages.
-        <br><br>
-        <img src="media/wild-bear.jpg">
-        <br><br>
-        Urban (gentrified) bears on the other hand have largely abandoned the old ways. They will hunt other urban creatures if necessary (including other predators like rats and foxes), but prefer to scavenge from readily available urban food outlets like dumpsters, bins, and fast food joints. When food has proven scarce, urban bears have even been known to break into people's kitchens and steal essentials like baked beans, ready meals, and microwave ovens.
-        <br><br>
-        <img src="media/urban-bear.jpg">
-        <br><br>
-        Urban bears will sleep anywhere they can, from bus shelters and parks, to the toilets in McDonalds, to their own apartment.
-        <br><br>
-        <font size="5">Mating rituals</font>
-        <br><br>
-        Bears are romantic creatures by nature, and will naturally look for a mate that they can spend the rest of their lives with. They will woo a potential suitor by making their dwelling look attractive — for example with cave paintings or a bed of reeds in the case of a wild bear, and mood lighting and a Michael Bublé CD in the case of an urban bear.
-        <br><br>
-        The following audio clip contains a fact file providing more details about bear mating rituals, along with samples and quotes from experts.
-        <br><br>
+        <h3>Habitats and Eating habits</h3>
+        <p>Wild bears eat a variety of meat, fish, fruit, nuts, and other naturally growing ingredients. They usually hunt for food in woodland or rivers, but may scavenge from farms or country houses. They tend to live in relative isolation, in caves, tents, or cottages.</p>
+
+        <img src="media/wild-bear.jpg" alt="Wild brown bear standing in a forest">
+
+        <p>Urban (gentrified) bears have largely abandoned the old ways. They may hunt other urban creatures, but often scavenge from dumpsters, bins, and fast food joints. Some have been known to break into kitchens to steal essentials like baked beans, ready meals, and microwave ovens.</p>
+
+        <img src="media/urban-bear.jpg" alt="Urban bear scavenging near a dumpster">
+
+        <p>Urban bears will sleep anywhere they can, from bus shelters and parks, to fast-food restaurant toilets, to their own apartments.</p>
+
+        <h3>Mating rituals</h3>
+        <p>Bears are romantic creatures by nature, seeking lifelong partners. Wild bears may decorate their dwellings with cave paintings or reeds; urban bears might opt for mood lighting and a Michael Bublé CD.</p>
+
+        <p>The following audio clip contains more details about bear mating rituals:</p>
+
         <audio controls>
           <source src="media/bear.mp3" type="audio/mp3">
           <source src="media/bear.ogg" type="audio/ogg">
           <p>It looks like your browser doesn't support HTML5 audio players.</p>
         </audio>
 
-        <aside>
-
-          <font size="5">About the author</font>
-        <br><br>
-          Evan Wild is an unemployed plumber from Doncaster, who has been really "in to" wildlife since childhood. He once went to Chester Zoo on holiday, but got ill after eating a doner kebab.
-        <br><br>
-          He has never seen a bear, but once read a Daily Mail article about them, and thinks they sound cool.
-
-        </aside>
+            <aside>
+              <h3>About the author</h3>
+              <p>Evan Wild is an unemployed plumber from Doncaster who has been fascinated by wildlife since childhood. He once visited Chester Zoo but got ill after eating a doner kebab.</p>
+              <p>He has never seen a bear but once read a Daily Mail article about them.</p>
+            </aside>
+        
         <section class="comments">
-          <div class="show-hide">Show comments</div>
+          <button class="show-hide" aria-expanded="false">Show comments</button>
 
           <div class="comment-wrapper">
-
-            <font size="6">Add comment</font>
-
+            <h3>Add comment</h3>
             <form class="comment-form">
               <div class="flex-pair">
-                Your name:
+                <label for="name">Your name:</label>
                 <input type="text" name="name" id="name" placeholder="Enter your name">
               </div>
               <div class="flex-pair">
-                Your comment:
+                <label for="comment">Your comment:</label>
                 <input type="text" name="comment" id="comment" placeholder="Enter your comment">
               </div>
               <div>
@@ -141,27 +134,19 @@
               </div>
             </form>
 
-            <font size="6">Comments</font>
+              <h3>Comments</h3>
+              <ul class="comment-container">
+                <li>
+                  <p>Bob Fossil</p>
+                  <p>Oh I am so glad you taught me all about the big brown angry guys in the woods...</p>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </article>
 
-            <ul class="comment-container">
-
-              <li>
-
-                <p>Bob Fossil</p>
-
-                <p>Oh I am so glad you taught me all about the big brown angry guys in the woods. With their sniffing little noses and their bad attitudes, they can sure be a menace — I was thinking of putting them all in a truck and driving them outta here. I run a zoo, you know.</p>
-
-              </li>
-
-            </ul>
-
-          </div>
-        </section>
-      </article>
-
-      <div class="secondary">
-        <font size="6">Related</font>
-
+      <aside class="secondary">
+        <h2>Related</h2>
         <ul>
           <li><a href="#">The trouble with Bees</a></li>
           <li><a href="#">The trouble with Otters</a></li>
@@ -169,7 +154,7 @@
           <li><a href="#">The trouble with Octopi</a></li>
           <li><a href="#">The trouble with Lemurs</a></li>
         </ul>
-      </div>
+      </aside>
     </main>
 
     <footer>
@@ -177,6 +162,5 @@
     </footer>
 
     <script src="main.js"></script>
-
-  </body>
+</body>
 </html>
