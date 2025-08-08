@@ -1,3 +1,9 @@
+// Name: Victor Olatunji
+// File: lab5 
+// Date: Aug 8 2025
+// Lab 5 Accessibility troubleshooting
+// Course: Web Development Fundamentals (INFT1206)
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
