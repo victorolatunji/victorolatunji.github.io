@@ -21,7 +21,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #dde;
+  background-color: #6f8da7;
 }
 
 body {
@@ -64,7 +64,7 @@ p, li, table {
 
 /* Header + nav */
 .nav, article, footer, .secondary {
-  background-color: #006400; /* Dark green for better contrast */
+  background-color: white; 
 }
 
 .nav {
@@ -92,7 +92,7 @@ p, li, table {
   font-size: 2rem;
   text-transform: uppercase;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .nav .search {
@@ -130,6 +130,8 @@ article {
   flex: 5;
   padding: 10px 30px;
   margin-right: 10px;
+  background-color: white; 
+   
 }
 
 .secondary {
@@ -146,7 +148,7 @@ footer {
 
 table {
   width: 100%;
-  background-color: #dde;
+  background-color: #6f8da7;
   border-collapse: collapse;
 }
 
@@ -163,7 +165,7 @@ th {
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #def;
+  background-color: #6f8da7; /* Light blue for row striping */
 }
 
 /* styling content images and audio */
@@ -179,7 +181,7 @@ audio {
 
 /* Comments */
 .comments {
-  background-color: #def;
+  background-color: #6f8da7;
   padding: 10px;
 }
 
