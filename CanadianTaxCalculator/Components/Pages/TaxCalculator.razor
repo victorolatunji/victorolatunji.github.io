@@ -1,0 +1,52 @@
+﻿@page "/tax"
+
+@using CanadianTaxCalculator.Data;
+
+<h1>Canada Provincial Income Tax Calculator</h1>
+
+<div class="mt-3">
+    <label>Taxable Income (CAD):</label><br />
+    <input type="number" class="form-control" @bind="Income" />
+
+    <label class="mt-3">Province:</label><br />
+    <select class="form-control" @bind="SelectedProvince">
+        @foreach (var p in Provinces)
+        {
+            <option value="@p">@p</option>
+        }
+    </select>
+
+    <button class="btn btn-primary mt-3" @onclick="Calculate">Calculate</button>
+</div>
+
+@if (HasResult)
+{
+    <hr />
+    <h3>Results</h3>
+
+    <p><b>Federal Tax:</b> @FederalTax.ToString("C")</p>
+    <p><b>Provincial Tax (@SelectedProvince):</b> @ProvincialTax.ToString("C")</p>
+    <p><b>Total Tax:</b> @TotalTax.ToString("C")</p>
+    <p><b>Effective Rate:</b> @EffectiveRate.ToString("N2")%</p>
+}
+
+@code {
+    decimal Income { get; set; }
+    string SelectedProvince { get; set; } = "Ontario";
+
+    decimal FederalTax, ProvincialTax, TotalTax, EffectiveRate;
+    bool HasResult = false;
+
+    TaxCalculator calc = new();
+
+    string[] Provinces => TaxCalculator.ProvinceList;
+
+    void Calculate()
+    {
+        FederalTax = calc.CalculateFederalTax(Income);
+        ProvincialTax = calc.CalculateProvincialTax(Income, SelectedProvince);
+        TotalTax = FederalTax + ProvincialTax;
+        EffectiveRate = Income > 0 ? (TotalTax / Income) * 100 : 0;
+        HasResult = true;
+    }
+}
