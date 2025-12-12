@@ -1,4 +1,5 @@
 ﻿@page "/tax"
+@rendermode InteractiveServer
 @using CanadianTaxCalculator.Data
 
 @* ------------------------------------------------------------
@@ -69,5 +70,6 @@
         TotalTax = FederalTax + ProvincialTax;
         EffectiveRate = Income > 0 ? (TotalTax / Income) * 100 : 0;
         HasResult = true;
+        StateHasChanged(); 
     }
 }
