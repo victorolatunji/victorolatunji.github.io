@@ -1,4 +1,11 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@* ------------------------------------------------------------
+   NavMenu.razor
+   Navigation menu for the Canadian Tax Calculator Blazor app.
+   This component provides links to all main pages.
+   The Tax Calculator link has been correctly placed inside <nav>.
+   ------------------------------------------------------------ *@
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">CanadianTaxCalculator</a>
     </div>
@@ -8,23 +15,36 @@
 
 <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
     <nav class="flex-column">
+
+        @* Home Link *@
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
                 <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
             </NavLink>
         </div>
 
+        @* Counter Example Page *@
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="counter">
                 <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
             </NavLink>
         </div>
 
+        @* Weather Example Page *@
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="weather">
                 <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
             </NavLink>
         </div>
+
+        @* ------------------------------------------------------------
+           Newly added Tax Calculator navigation link (correct location)
+           ------------------------------------------------------------ *@
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="tax">
+                <span class="bi bi-calculator-fill" aria-hidden="true"></span> Tax Calculator
+            </NavLink>
+        </div>
+
     </nav>
 </div>
-

@@ -11,8 +11,12 @@
       "RelativeMoniker": "D:0:0:{40A40ECD-644D-4793-B983-7ADE2EA1F8F9}|CanadianTaxCalculator.csproj|solutionrelative:data\\taxcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40A40ECD-644D-4793-B983-7ADE2EA1F8F9}|CanadianTaxCalculator.csproj|c:\\users\\victo\\onedrive\\documentos\\github\\victorolatunji.github.io\\canadiantaxcalculator\\canadiantaxcalculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{40A40ECD-644D-4793-B983-7ADE2EA1F8F9}|CanadianTaxCalculator.csproj|solutionrelative:canadiantaxcalculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{40A40ECD-644D-4793-B983-7ADE2EA1F8F9}|CanadianTaxCalculator.csproj|c:\\users\\victo\\onedrive\\documentos\\github\\victorolatunji.github.io\\canadiantaxcalculator\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40A40ECD-644D-4793-B983-7ADE2EA1F8F9}|CanadianTaxCalculator.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40A40ECD-644D-4793-B983-7ADE2EA1F8F9}|CanadianTaxCalculator.csproj|c:\\users\\victo\\onedrive\\documentos\\github\\victorolatunji.github.io\\canadiantaxcalculator\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40A40ECD-644D-4793-B983-7ADE2EA1F8F9}|CanadianTaxCalculator.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40A40ECD-644D-4793-B983-7ADE2EA1F8F9}|CanadianTaxCalculator.csproj|c:\\users\\victo\\onedrive\\documentos\\github\\victorolatunji.github.io\\canadiantaxcalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -44,7 +48,7 @@
               "RelativeDocumentMoniker": "Components\\Pages\\TaxCalculator.razor",
               "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\GitHub\\victorolatunji.github.io\\CanadianTaxCalculator\\Components\\Pages\\TaxCalculator.razor",
               "RelativeToolTip": "Components\\Pages\\TaxCalculator.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-11T23:47:10.527Z",
               "EditorCaption": ""
@@ -57,7 +61,7 @@
               "RelativeDocumentMoniker": "Data\\TaxCalculator.cs",
               "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\GitHub\\victorolatunji.github.io\\CanadianTaxCalculator\\Data\\TaxCalculator.cs",
               "RelativeToolTip": "Data\\TaxCalculator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T23:43:23.355Z",
               "EditorCaption": ""
@@ -65,18 +69,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CanadianTaxCalculator.csproj",
-              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\GitHub\\victorolatunji.github.io\\CanadianTaxCalculator\\CanadianTaxCalculator.csproj",
-              "RelativeDocumentMoniker": "CanadianTaxCalculator.csproj",
-              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\GitHub\\victorolatunji.github.io\\CanadianTaxCalculator\\CanadianTaxCalculator.csproj",
-              "RelativeToolTip": "CanadianTaxCalculator.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-11T23:41:53.685Z"
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\GitHub\\victorolatunji.github.io\\CanadianTaxCalculator\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\GitHub\\victorolatunji.github.io\\CanadianTaxCalculator\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T00:14:50.939Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\GitHub\\victorolatunji.github.io\\CanadianTaxCalculator\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\Documentos\\GitHub\\victorolatunji.github.io\\CanadianTaxCalculator\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T23:49:23.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\Documentos\\GitHub\\victorolatunji.github.io\\CanadianTaxCalculator\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

@@ -1,3 +1,10 @@
+C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\CanadianTaxCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\CanadianTaxCalculator.AssemblyInfoInputs.cache
+C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\CanadianTaxCalculator.AssemblyInfo.cs
+C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\CanadianTaxCalculator.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\CanadianTaxCalculator.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\CanadianTaxCalculator.sourcelink.json
 C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\bin\Debug\net8.0\appsettings.json
 C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\bin\Debug\net8.0\CanadianTaxCalculator.staticwebassets.runtime.json
@@ -7,13 +14,6 @@ C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCa
 C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\bin\Debug\net8.0\CanadianTaxCalculator.runtimeconfig.json
 C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\bin\Debug\net8.0\CanadianTaxCalculator.dll
 C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\bin\Debug\net8.0\CanadianTaxCalculator.pdb
-C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\rpswa.dswa.cache.json
-C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\CanadianTaxCalculator.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\CanadianTaxCalculator.AssemblyInfoInputs.cache
-C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\CanadianTaxCalculator.AssemblyInfo.cs
-C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\CanadianTaxCalculator.csproj.CoreCompileInputs.cache
-C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\CanadianTaxCalculator.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\CanadianTaxCalculator.sourcelink.json
 C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\victo\OneDrive\Documentos\GitHub\victorolatunji.github.io\CanadianTaxCalculator\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
