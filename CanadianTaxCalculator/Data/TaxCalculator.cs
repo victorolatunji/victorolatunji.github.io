@@ -1,10 +1,22 @@
-﻿// ------------------------------------------------------------
-// TaxCalculator.cs
-// This class encapsulates the federal and provincial tax rules
-// used to compute marginal taxation across all ten provinces.
-// The design follows a structured, data-driven approach using
-// threshold arrays and marginal tax rate arrays.
-// ------------------------------------------------------------
+﻿/* 
+------------------------------------------------------------
+File: TaxCalculator.cs
+Author: Victor Olatunji
+Course: INFT 2100 – Web Application Development
+Project: Canadian Tax Calculator (Blazor)
+Date: December 2025
+
+Description:
+Backend tax computation engine for the Canadian Tax Calculator.
+Provides all logic for calculating marginal federal and provincial
+income tax based on predefined thresholds and tax rate structures.
+Includes: 
+  - Federal tax calculation
+  - Provincial tax calculation for 10 provinces
+  - Marginal tax bracket engine shared across all regions
+------------------------------------------------------------
+*/
+
 
 namespace CanadianTaxCalculator.Data;
 
