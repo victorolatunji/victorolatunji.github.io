@@ -1,4 +1,7 @@
-<img align="right" src="https://media.tenor.com/your-selected-gif-url.gif" width="160"/>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%23F76900&size=24&lines=Backend-focused+Developer;Learning+by+Building;Software+over+Hype;Clean+Code+Enjoyer)](https://git.io/typing-svg)
+
+<img align="right" src="https://media.tenor.com/2p0uQWGWpZ4AAAAC/asap-rocky-smirk.gif" width="160"/>
+
 
 # Sak pase! It's HIM 🐐
 
@@ -53,7 +56,7 @@ I enjoy **projects**, **problem-solving**, **systems thinking**, and exploring h
 
 ## 🔥 Fav Quote
 
-> *“Remember, Destitute almost got you killed!”* >>> **Numero Uno**
+**Numero Uno** --> *“Remember, Destitute almost got you killed!”*  
 
 I love creators who blend discipline + creativity (coding kind of fits the vibe!)
 My philosophy:
@@ -63,8 +66,7 @@ My philosophy:
 
 ## 📊 GitHub Stats & Progress
 
-![stats](https://github-readme-stats.vercel.app/api?username=victorolatunji&show_icons=true&theme=tokyonight&hide_border=true)
-![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=victorolatunji&layout=compact&theme=tokyonight&hide_border=true)
+Coming soon...
 
 ---
 
@@ -95,4 +97,8 @@ When I’m not debugging:
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](http://discordapp.com/users/1324801478640144426)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-a-olatunji-900805397)
 [![Pinterest](https://img.shields.io/badge/Pinterest-BD081C?style=for-the-badge&logo=pinterest&logoColor=white)](https://pin.it/19tDw8Vss)
+
+
+![snake](https://github.com/platane/snk/raw/output/github-contribution-grid-snake.svg)
+
 
