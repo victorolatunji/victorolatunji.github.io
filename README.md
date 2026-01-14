@@ -1,10 +1,10 @@
-<img align="right" src="https://i.gifer.com/9Eo.gif" width="140"/>
+<img align="right" src="https://media.tenor.com/your-selected-gif-url.gif" width="160"/>
 
-# Hi, I'm Victor 👋
+# Sak pase! It's HIM 🐐
 
-🔥 *"The fire you fuel today becomes the light you stand in tomorrow."*
+🔥 *"The underdog story is the realest story there is!"*
 
-I'm a **Computer Programming student** and an improving **Junior Programmer** with a passion for back-end problem solving, clean code, and building things that actually work in the real world.
+I'm a computer programming student and an improving junior programmer with a passion for back-end problem-solving, clean code, and building things that actually work in the real world.
 
 Currently focusing on:
 - Backend development with **PHP, Java, Python, and C#**
@@ -51,9 +51,9 @@ I enjoy **projects**, **problem-solving**, **systems thinking**, and exploring h
 
 ---
 
-## 🔥 Miscelleanous
+## 🔥 Fav Quote
 
-> *“Destiny is a funny thing. You never know how things will work out.”* — **Zuko**
+> *“Remember, Destitute almost got you killed!”* >>> **Numero Uno**
 
 I love creators who blend discipline + creativity (coding kind of fits the vibe!)
 My philosophy:
@@ -74,7 +74,6 @@ My philosophy:
 - Clean code patterns
 - Object-Oriented Programming III
 - Cloud Tech Fundamentals
-- 
 
 ---
 
